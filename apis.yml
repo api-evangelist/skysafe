@@ -1,7 +1,31 @@
 aid: skysafe
-name: Skysafe
-description: Skysafe is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: SkySafe
+description: >-
+  SkySafe is a San Diego-based drone-detection and airspace-intelligence company
+  (founded 2015, backed by a16z) whose cloud SaaS platform lets airports, critical
+  infrastructure, law enforcement, universities, correctional facilities, and
+  government customers detect, track, analyze, and act on every drone in their
+  airspace in real time. The platform surfaces precise drone location, altitude,
+  velocity, flight status, launch point, and pilot location, receives and analyzes
+  Remote ID, retains historical flight telemetry for forensic "Prosecutor-Ready"
+  reporting, and pushes instant notifications via SMS, Microsoft Teams, Slack, or
+  CommandCentral Aware. SkySafe advertises integration APIs that push detection,
+  forensics, and analytics into third-party command centers and mitigation
+  workflows, but its developer surface (app.skysafe.io, docs.skysafe.io,
+  api.skysafe.io) sits entirely behind customer authentication — there is no public
+  developer portal, API reference, or OpenAPI specification to harvest.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/hFauWGviPo27ihfi7neacjU9qkE.png
 url: https://raw.githubusercontent.com/api-evangelist/skysafe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Drone Detection
+- Counter-UAS
+- Airspace Intelligence
+- Security
+- Public Safety
+- Remote ID
+- Signals Intelligence
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: Website
+  url: https://www.skysafe.io/
+- type: Login
+  url: https://app.skysafe.io
+- type: Blog
+  url: https://blog.skysafe.io/
+- type: GitHubOrganization
+  url: https://github.com/skysafe
+- type: PrivacyPolicy
+  url: https://www.skysafe.io/privacy-policy
+- type: DomainSecurity
+  url: security/skysafe-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
